@@ -88,6 +88,7 @@ tracts16 <-
           year=2016, state=42,
           county=101, geometry=TRUE) %>% 
   st_transform('ESRI:102728')
+
 ```
 
 #### Wide data vs long data (and `spread`vs `gather`)
